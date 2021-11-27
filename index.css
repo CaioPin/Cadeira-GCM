@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    justify-self: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+th {
+    background-color: rgb(166, 166, 241);
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+td.comando {
+    border: 2px black solid;
+    border-top: none;
+    border-right: none;
+    padding-right: 15px;
+}
+
+td.funcao {
+    border: 2px black solid;
+    border-top: none;
+    border-left: none;
+    text-align: end;
+    padding-left: 15px;
+}
